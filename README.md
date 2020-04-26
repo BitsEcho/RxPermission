@@ -29,4 +29,6 @@ findViewById<Button>(R.id.read_storage).setOnClickListener {
 }
 ```
 
+## License
 
+**RxPermission** is under MIT license. See the [LICENSE](LICENSE) file for more info.
