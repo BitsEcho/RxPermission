@@ -3,7 +3,8 @@ Android Kotlin ReactiveX permissions request tool with Androidx and RxJava3.
 
 ## Sample
 (GIF maybe load slowly)
-![](screenshot/sample.gif){:height="30%" width="30%"}
+
+<img src="screenshot/sample.gif" width="30%" height="30%" />
 
 ## Usage
 ```kotlin
