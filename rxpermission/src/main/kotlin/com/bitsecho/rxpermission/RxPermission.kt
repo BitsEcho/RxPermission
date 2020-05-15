@@ -4,7 +4,6 @@ import android.content.pm.PackageManager
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
-import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
 import com.bitsecho.util.RxBus
 import com.bitsecho.rxpermission.RxPermissionFragment.Companion.TAG
@@ -52,7 +51,7 @@ class RxPermissionFragment: Fragment() {
     }
 
     private val permissionsBus = RxBus<PermissionResult>()
-    val permissionObs: Observable<PermissionResult> get() = permissionsBus.obs.observeOn(AndroidSchedulers.mainThread())
+    val permissionObs: Observable<PermissionResult> get() = permissionsBus.obs
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
