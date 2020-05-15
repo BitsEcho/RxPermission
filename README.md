@@ -1,6 +1,6 @@
 # RxPermission
 
-[ ![Download](https://api.bintray.com/packages/bitsecho/maven/rxpermission/images/download.svg?version=1.0.0) ](https://bintray.com/bitsecho/maven/rxpermission/1.0.0/link)
+[ ![Download](https://api.bintray.com/packages/bitsecho/maven/rxpermission/images/download.svg?version=1.0.1) ](https://bintray.com/bitsecho/maven/rxpermission/1.0.1/link)
 
 Android Kotlin ReactiveX permissions request tool with Androidx and RxJava3.
 
@@ -34,7 +34,7 @@ findViewById<Button>(R.id.read_storage).setOnClickListener {
 
 ## Installation
 ```gradle
-implementation 'com.bitsecho.rxpermission:rxpermission:1.0.0'
+implementation 'com.bitsecho.rxpermission:rxpermission:1.0.1'
 ```
 
 ## License
